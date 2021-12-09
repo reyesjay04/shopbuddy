@@ -1,0 +1,94 @@
+body {
+	background: url("bluesalary.jpg");
+	background-position: top center;
+}
+.margin-top{
+	margin-top: 10px;
+}
+.form-control {
+	border:1px solid black;
+}
+.form-control:focus {
+	background: #ccffff;
+	color: #000;
+}
+a {
+	color: #fff;
+}
+li {
+	color: #fff;
+}
+li:hover {
+	background-color: #4040a1;
+	color:#fff;
+}
+.activeModule {
+	background-color: #4040a1;	
+}
+#canvas {
+	margin-top: 5%;
+}
+.card {
+   border:1px solid #000;
+   margin:5px;
+   padding:20px;
+   background:#fff;
+   border-radius:10px;
+   margin-top:10px;
+   box-shadow: 3px 3px 3px black;
+}
+label {
+	color: #000;
+}
+.btn:hover {
+   background:#ff0066;
+   transition:0.3s;
+   -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+.btn-info {
+   background:#0082e6;
+   font-size:10pt;
+   padding:7px;
+   background: #0082e6; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#0082e6,#0065b1); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#0082e6,#0065b1); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#0082e6,#0065b1); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#0082e6,#0065b1); /* Standard syntax */
+   border:1px groove #0065b1;
+   text-shadow:1px 3px 3px #000;
+   
+}
+.btn-danger {
+   font-size:10pt;
+   padding:7px;
+   background: #ff0026; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#ff0026,#a6001a); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#ff0026,#a6001a); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#ff0026,#a6001a); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#ff0026,#a6001a); /* Standard syntax */
+   border:1px groove #a6001a;
+   text-shadow:1px 3px 3px #000;
+}
+.btn-warning {
+   font-size:10pt;
+   padding:7px;
+   background: #fdd74e; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#fdd74e,#e3b202); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#fdd74e,#e3b202); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#fdd74e,#e3b202); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#fdd74e,#e3b202); /* Standard syntax */
+   border:1px groove #e3b202;
+   text-shadow:1px 3px 3px #000;
+}
+.btn:disabled {
+   background: #999999;
+   color: #fff;
+}
+.table-striped {
+	background: #80cbc4;
+}
+.panel-primary {
+   box-shadow: 3px 3px 3px black;
+}
